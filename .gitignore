@@ -1,0 +1,19 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data (Optional: 원본 데이터가 너무 크면 제외하지만, 포트폴리오용이면 보통 포함합니다. 여기선 포함시킵니다)
+# data/
+
+# Keys / Secrets (만약 API 키가 있다면 절대 올리면 안 됩니다)
+.env
